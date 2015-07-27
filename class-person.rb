@@ -1,11 +1,11 @@
 class Person
-	attr_accessor :fname
-	attr_accessor :lname
-	attr_accessor :age
-
 	def to_s
 		"#{@fname} #{@lname}, age #{@age}"
 	end
+
+	attr_accessor :fname
+	attr_accessor :lname
+	attr_accessor :age
 end
 
 
