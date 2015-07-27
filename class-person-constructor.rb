@@ -19,7 +19,6 @@ class Person
 	end
 end
 
-
 p = Person.new("Brian", "Hoke", 44)
 puts p
 
