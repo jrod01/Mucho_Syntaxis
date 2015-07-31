@@ -1,6 +1,3 @@
-#check out http://ruby-doc.org/core-1.9.3/String.html
-
-
 str1 = "heRe is a StrInG with oDD CaPitaLizAtion"
 
 puts str1.upcase
