@@ -9,7 +9,7 @@ puts "11 / 3 = #{11/3}"
 
 puts "11 % 3 = #{11%3}"
 
-# http://ruby-doc.org/core-1.9.3/Fixnum.html
+
 
 puts "11 is odd: #{11.odd?}"
 puts "11 is even: #{11.even?}"
@@ -17,7 +17,6 @@ puts "11 is even: #{11.even?}"
 puts "absolute value of -12: #{-12.abs}"
 
 
-# http://ruby-doc.org/core-1.9.3/Float.html
 
 puts "round 11.56725: #{11.56725.round}"
 puts "round 11.56725 to three decimal places: #{11.56725.round(3)}"
