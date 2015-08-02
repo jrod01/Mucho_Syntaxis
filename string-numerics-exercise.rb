@@ -1,7 +1,7 @@
 # 1. test if a string is a palindrome
 class String
 	def palindrome?
-		# your code here
+		palindrome.string? return self == self.reverse
 	end
 end
 
@@ -16,8 +16,8 @@ puts "str2 is a palindrome: #{str2.palindrome?}"
 # 2. count number of vowels in a string
 class String
 	def num_vowels
-		# your code here
-	end
+   return self.downcase.count "aeiou"
+  end
 end
 
 str1 = "Joe Appleby"
@@ -29,7 +29,8 @@ puts "'#{str1}' has #{str1.num_vowels} vowel(s)"
 #    hint: use http://www.ruby-doc.org/core-2.0.0/Integer.html#method-i-gcd
 
 def reduceit(num,den)
-	# your code here
+	gcd = num.gcd(den)
+	return "#{num}/#{den} = #{num/gcd}/#{den/gcd}"
 end
 
 puts reduceit(4,24)
