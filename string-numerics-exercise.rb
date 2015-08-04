@@ -1,7 +1,7 @@
 # 1. test if a string is a palindrome
 class String
 	def palindrome?
-		palindrome.string? return self == self.reverse
+	  return self == self.reverse
 	end
 end
 
@@ -16,7 +16,7 @@ puts "str2 is a palindrome: #{str2.palindrome?}"
 # 2. count number of vowels in a string
 class String
 	def num_vowels
-   return self.downcase.count "aeiou"
+    return self.downcase.count "aeiou"
   end
 end
 
