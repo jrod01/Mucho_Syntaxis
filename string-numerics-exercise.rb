@@ -16,7 +16,7 @@ puts "str2 is a palindrome: #{str2.palindrome?}"
 # 2. count number of vowels in a string
 class String
 	def num_vowels
-    return self.count "aeiouAEIOU"
+    return self.downcase.count "aeiou"
   end
 end
 
