@@ -1,4 +1,4 @@
-x = 3
+x = 4
 
 # simple if statement
 if x == 2
