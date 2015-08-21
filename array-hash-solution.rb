@@ -30,7 +30,7 @@ puts items_with_cost_greater_than(myproducts, 17)
 puts
 
 # 3. set each of the elements of array nums to be twice
-#    its current value plus 5:
+#it's current value plus 5:
 
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 puts nums.map{|n| n*2 + 5}
