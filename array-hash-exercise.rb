@@ -2,8 +2,8 @@
 #    check out http://ruby-doc.org/core-1.9.3/Array.html
 a1 = [2, 17, 9, -7, 20, 14, -3]
 puts a1
-puts "Least is [least]; greatest is [greatest]"
-
+a1.sort!
+puts "Least is #{a1.first}; greatest is #{a1.last}"
 puts
 
 
