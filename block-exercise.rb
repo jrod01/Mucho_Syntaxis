@@ -22,7 +22,9 @@ puts '*********'
 
 class Array
 	def myfind
-		# your code here
+		self.each do |i|
+			return i if yield(i)
+		end
 	end
 end
 
