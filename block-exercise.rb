@@ -1,6 +1,7 @@
 # 1. Write method repeatit, which performs/executes the block passed to it twice
 def repeatit
-	# your code here
+	yield
+	yield
 end
 
 repeatit do
